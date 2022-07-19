@@ -41,7 +41,7 @@ const CartContainer = () => {
             initial={{ opacity: 0, x: 200 }}
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: 200 }}
-            className="fixed top-0 right-0 w-full md:w-375 h-screen bg-white drop-shadow-md flex flex-col z-[101]"
+            className="fixed top-0 right-0 w-full md:w-375 h-screen bg-white drop-shadow-md flex flex-col z-[999]"
         >
             <div className="w-full flex items-center justify-between p-4 cursor-pointer">
                 <motion.div whileTap={{ scale: 0.75 }} onClick={showCart}>
